@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:50FB7852
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:28 "C:\cvavr\inc\alcd.h"
+NODE:V LEVEL:0 LINE:31 "index -> R5"
+NODE:F LEVEL:0 LINE:33 "timer1_compa_isr(void)"
+NODE:F LEVEL:0 LINE:43 "main(void)"

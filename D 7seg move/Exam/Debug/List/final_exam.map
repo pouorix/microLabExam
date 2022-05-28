@@ -1,0 +1,23 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+nums                                                                              0x0260       6
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+a                                                                                 R5           1
+counter                                                                           R6,R7        2
+show_flag                                                                         R8,R9        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+number                                                                            0x00066     52
+set_number                                                                        0x0009A     63
+main                                                                              0x000D9    124
+getchar                                                                           0x00155      4

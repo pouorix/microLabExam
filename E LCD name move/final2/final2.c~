@@ -1,0 +1,74 @@
+/*******************************************************
+This program was created by the
+CodeWizardAVR V3.14 Advanced
+Automatic Program Generator
+© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+http://www.hpinfotech.com
+
+Project : final2
+Version : 
+Date    : 7/27/2020
+Author  : Alireza Azizi
+Company : 
+Comments: 
+
+
+Chip type               : ATmega32
+Program type            : Application
+AVR Core Clock frequency: 8.000000 MHz
+Memory model            : Small
+External RAM size       : 0
+Data Stack size         : 512
+*******************************************************/
+
+#include <mega32.h>
+#include <delay.h>
+// Alphanumeric LCD functions
+#include <alcd.h>
+
+// Declare your global variables here
+unsigned char start = 0;
+// Timer1 output compare A interrupt service routine
+interrupt [TIM1_COMPA] void timer1_compa_isr(void)
+{
+// Place your code here
+    start++;
+    start = start % 32;
+    lcd_clear();    
+}
+
+void main(void)
+{
+// Declare your local variables here
+int i =0;
+int posx = 0;
+int posy = 0;
+
+lcd_init(16);
+
+// Global enable interrupts
+#asm("sei")
+
+while (1)
+      {
+      char* name = "Alireza Azizi";
+      for( i=0; i < 13; i++)
+      {
+      posx = 15 - i - start;
+      posy = 0;
+      if(posx < 0 && posy == 0)
+      {
+      posy = 1;
+      posx += 16;
+      }
+      if(posx < 0 && posy == 1)
+      {
+      posy = 0;
+      posx += 16;  
+      }
+      lcd_gotoxy( posx, posy);
+      lcd_putchar(name[i]);
+      }
+      delay_ms(100);
+      }
+}

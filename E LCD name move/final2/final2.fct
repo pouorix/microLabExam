@@ -1,0 +1,9 @@
+main DSTACK_USAGE:2 DSTACK_LEVEL:2 FILE:"final2.c" LINE:40
+lcd_putchar DSTACK_USAGE:1 DSTACK_LEVEL:3 FILE:"C:\cvavr\lib\alcd.lib" LINE:265
+lcd_gotoxy DSTACK_USAGE:2 DSTACK_LEVEL:5 FILE:"C:\cvavr\lib\alcd.lib" LINE:247
+_lcd_write_data DSTACK_USAGE:1 DSTACK_LEVEL:6 FILE:"C:\cvavr\lib\alcd.lib" LINE:161
+_lcd_write_nibble DSTACK_USAGE:1 DSTACK_LEVEL:7 FILE:"C:\cvavr\lib\alcd.lib" LINE:139
+timer1_compa_isr DSTACK_USAGE:12 DSTACK_LEVEL:19 FILE:"final2.c" LINE:32
+lcd_clear DSTACK_USAGE:0 DSTACK_LEVEL:19 FILE:"C:\cvavr\lib\alcd.lib" LINE:255
+_lcd_write_data DSTACK_USAGE:1 DSTACK_LEVEL:20 FILE:"C:\cvavr\lib\alcd.lib" LINE:161
+_lcd_write_nibble DSTACK_USAGE:1 DSTACK_LEVEL:21 FILE:"C:\cvavr\lib\alcd.lib" LINE:139

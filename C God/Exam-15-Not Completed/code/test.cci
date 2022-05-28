@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:52222996
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:29 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:30 "C:\cvavr\inc\delay.h"
+NODE:V LEVEL:0 LINE:31 "m -> R4,R5"
+NODE:F LEVEL:0 LINE:33 "main(void)"
+NODE:F LEVEL:0 LINE:163 "usart_send_string(unsigned char * str)"

@@ -1,0 +1,3 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"final_exam.c" LINE:91
+set_number DSTACK_USAGE:1 DSTACK_LEVEL:1 FILE:"final_exam.c" LINE:58
+number DSTACK_USAGE:1 DSTACK_LEVEL:2 FILE:"final_exam.c" LINE:25

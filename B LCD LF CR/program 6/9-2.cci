@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:50F38BC1
+NODE:I LEVEL:0 LINE:24 "D:\Program Files\CodeVision\inc\mega32.h"
+NODE:I LEVEL:0 LINE:27 "D:\Program Files\CodeVision\inc\alcd.h"
+NODE:I LEVEL:0 LINE:32 "D:\Program Files\CodeVision\inc\stdio.h"
+NODE:V LEVEL:0 LINE:33 "i -> R5"
+NODE:V LEVEL:0 LINE:33 "input -> R4"
+NODE:F LEVEL:0 LINE:34 "main(void)"

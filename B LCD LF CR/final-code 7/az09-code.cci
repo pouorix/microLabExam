@@ -1,0 +1,10 @@
+VERSION:3 SOURCE_TIMESTAMP:50F28D51
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\alcd.h"
+NODE:V LEVEL:0 LINE:30 "input -> R5"
+NODE:V LEVEL:0 LINE:31 "name -> RAM:????"
+NODE:V LEVEL:0 LINE:32 "first_name -> RAM:????"
+NODE:V LEVEL:0 LINE:33 "last_name -> RAM:????"
+NODE:I LEVEL:0 LINE:36 "C:\cvavr\inc\stdio.h"
+NODE:F LEVEL:0 LINE:38 "main(void)"

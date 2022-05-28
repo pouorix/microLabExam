@@ -1,0 +1,30 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+_base_y                                                                           0x027C       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+_lcd_x                                                                            R5           1
+_lcd_y                                                                            R4           1
+_lcd_maxx                                                                         R7           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00072     78
+_lcd_write_nibble_G100                                                            0x000C0     21
+_lcd_write_data                                                                   0x000D5     13
+lcd_gotoxy                                                                        0x000E2     13
+lcd_clear                                                                         0x000EF     12
+lcd_putchar                                                                       0x000FB     23
+lcd_puts                                                                          0x00112     11
+lcd_init                                                                          0x0011D     46
+getchar                                                                           0x0014B      4
+putchar                                                                           0x0014F      7
+puts                                                                              0x00156     14

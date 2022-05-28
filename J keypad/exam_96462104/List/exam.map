@@ -1,0 +1,20 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+number                                                            0x0277      12
+show                                                              0x0283       5
+_base_y                                                           0x0288       4
+_seed                                                             0x028C       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+operand                                                           R5           1
+counter                                                           R6,R7        2
+_lcd_x                                                            R4           1
+_lcd_y                                                            R9           1
+_lcd_maxx                                                         R8           1

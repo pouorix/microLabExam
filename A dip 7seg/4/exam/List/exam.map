@@ -1,0 +1,21 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+hex                                                               0x0260       2
+HEXVALUE                                                          0x0262      16
+code                                                              0x0272      16
+number                                                            0x0282       2
+tempDecimal                                                       0x0284       2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+counter                                                           R4,R5        2
+rem                                                               R6,R7        2
+index                                                             R8,R9        2
+i                                                                 R10,R11      2
+j                                                                 R12,R13      2
